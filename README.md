@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey)](https://github.com/)
+[![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey)]
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/)
 
 🎵 Программа для отображения текущей играющей песни из VK в Discord Rich Presence с графическим интерфейсом

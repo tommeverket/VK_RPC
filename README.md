@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey)](https://github.com/)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/)
 [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
-[![vk_api](https://img.shields.io/badge/using-vk_api-00bb88.svg?style=for-the-badge&logo=vk&logoWidth=20)](
+[![vk_api](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20](https://img.shields.io/badge/using-vk_api-00bb88.svg?style=for-the-badge&logo=vk&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 
 🎵 Программа для отображения текущей играющей песни из VK в Discord Rich Presence с графическим интерфейсом
 

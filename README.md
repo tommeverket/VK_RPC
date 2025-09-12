@@ -2,14 +2,14 @@
 
 [![Python](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey)](https://github.com/)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/)  
+[![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey)](https://github.com/tommeverket/VK_RPC/releases/tag/release)
+![Version](https://img.shields.io/badge/version-1.0-blue)
 [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 [![vk_api](https://img.shields.io/badge/using-vk_api-00bb88.svg?style=for-the-badge&logo=vk&logoWidth=20)](https://github.com/python273/vk_api)
 
 🎵 Программа для отображения текущей играющей песни из VK в Discord Rich Presence с GUI
 
-![VK Music RPC Demo](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_preview_working_running.png)
+[![VK Music RPC Demo](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_preview_working_running.png)]
 
 ## 📋 Описание
 
@@ -91,7 +91,7 @@ python main.py
 ## ❓ Решение проблем
 
 ### "Error! You're not logged in!":
-![err_notconfigured](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_error_notconfigured.png)
+[![err_notconfigured](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_error_notconfigured.png)]
 - ✅ Проверьте правильность токена VK в config.json
 - ✅ Убедитесь, что токен не истек
 
@@ -106,22 +106,9 @@ python main.py
 - ✅ Перезапустите Discord
 
 ### Музыка не обнаружена:
-![err_musicnotfound](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_error_musicnotfound.png)
+[![err_musicnotfound](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_error_musicnotfound.png)]
 - ✅ Включите "Транслировать в статус" в настройках VK Музыки
 - ✅ Убедитесь, что музыка реально играет
-
-## 🛠️ Разработка
-
-### Структура проекта:
-```
-vk-music-rpc/
-├── main.py          # Основной код
-├── config.json      # Файл конфигурации
-├── README.md        # Документация
-├── LICENSE          # Лицензия
-├── requirements.txt # Зависимости
-└── screenshots/     # Скриншоты
-```
 
 ## 🤝 Поддержка
 

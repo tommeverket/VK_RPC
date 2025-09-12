@@ -9,7 +9,7 @@
 
 🎵 Программа для отображения текущей играющей песни из VK в Discord Rich Presence с графическим интерфейсом
 
-[![VK Music RPC Demo](https://img.shields.io/badge/view-screenshots-blue)](https://github.com/python273/vk_api)
+[![VK Music RPC Demo](https://img.shields.io/badge/view-screenshots-blue)]()
 
 ## 📖 Содержание
 - [Описание](#описание)
@@ -36,12 +36,7 @@ VK Music Discord RPC - это приложение, которое позвол�
 
 ## 📸 Скриншоты
 
-<div align="center">
-  <img src="https://img.shields.io/badge/screenshot-success_screen-blue" alt="Успешное подключение" width="45%"/>
-  <img src="https://img.shields.io/badge/screenshot-error_screen-red" alt="Ошибка подключения" width="45%"/>
-</div>
-
-*Успешное подключение и отображение ошибок*
+[![ss](https://img.shields.io/badge/view-screenshots-blue&logoWidth=60)](https://github.com/)
 
 ## 📦 Установка
 
@@ -50,21 +45,21 @@ VK Music Discord RPC - это приложение, которое позвол�
 - Установленный Discord (должен быть запущен)
 
 ### Установка зависимостей:
-~~~bash
-pip install vk_api pypresence pillow requests
-~~~
+```bash
+pip install -r requirements.txt
+```
 
 ### Клонирование репозитория:
-~~~bash
-git clone https://github.com/ваш_логин/vk-music-discord-rpc.git
-cd vk-music-discord-rpc
-~~~
+```bash
+git clone https://github.com/tommverket/VK_RPC.git
+cd VK_RPC
+```
 
 ## ⚙️ Конфигурация
 
 При первом запуске программа создаст файл `config.json` со следующими параметрами:
 
-~~~json
+```json
 {
     "vk_token": "ВСТАВЬТЕ_СЮДА_ВАШ_ТОКЕН_ВК",
     "discord_client_id": "ВАШ_DISCORD_APP_CLIENT_ID",
@@ -74,15 +69,13 @@ cd vk-music-discord-rpc
     "show_buttons": true,
     "debug_mode": false
 }
-~~~
+```
 
 ### Получение токена VK:
-1. Перейдите по ссылке (замените `APP_ID`):
-   ~~~
-   https://oauth.vk.com/authorize?client_id=APP_ID&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends,audio,status,wall,offline&response_type=token&v=5.131
-   ~~~
+1. Перейдите по [ссылке](https://oauth.vk.com/oauth/authorize?client_id=6121396&scope=1115144&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1&slogin_h=1c303149381fdfa4ab.b807112eee8a0f0a20&__q_hash=172f249acc3b5044585b64397c2acbb6)
+(Или создайте свою ссылку через https://vkhost.github.io)
 2. Разрешите доступ
-3. Скопируйте токен из адресной строки
+3. Скопируйте токен из адресной строки (после access_token= и до &expires_in=)
 
 ### Создание Discord Application:
 1. Перейдите на [Discord Developer Portal](https://discord.com/developers/applications)
@@ -127,15 +120,15 @@ python main.py
 - ✅ Убедитесь, что музыка реально играет
 
 ### Ошибки при создании EXE:
-~~~bash
+```bash
 # Используйте параметр --hidden-import
 pyinstaller --onefile --windowed --hidden-import=PIL._tkinter_finder main.py
-~~~
+```
 
 ## 🛠️ Разработка
 
 ### Структура проекта:
-~~~
+```
 vk-music-rpc/
 ├── main.py          # Основной код
 ├── config.json      # Файл конфигурации
@@ -143,7 +136,7 @@ vk-music-rpc/
 ├── LICENSE          # Лицензия
 ├── requirements.txt # Зависимости
 └── screenshots/     # Скриншоты
-~~~
+```
 
 ## 🤝 Поддержка
 

@@ -9,7 +9,7 @@
 
 🎵 Программа для отображения текущей играющей песни из VK в Discord Rich Presence с GUI
 
-[VK Music RPC Demo](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_preview_working_running.png)
+[[VK Music RPC Demo](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_preview_working_running.png)]
 
 ## 📋 Описание
 

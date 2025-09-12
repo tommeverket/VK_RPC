@@ -9,7 +9,7 @@
 
 🎵 Программа для отображения текущей играющей песни из VK в Discord Rich Presence с GUI
 
-[![VK Music RPC Demo](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_preview_working_running.png)]
+[VK Music RPC Demo](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_preview_working_running.png)
 
 ## 📋 Описание
 
@@ -91,7 +91,7 @@ python main.py
 ## ❓ Решение проблем
 
 ### "Error! You're not logged in!":
-[![err_notconfigured](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_error_notconfigured.png)]
+[err_notconfigured](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_error_notconfigured.png)
 - ✅ Проверьте правильность токена VK в config.json
 - ✅ Убедитесь, что токен не истек
 
@@ -106,7 +106,7 @@ python main.py
 - ✅ Перезапустите Discord
 
 ### Музыка не обнаружена:
-[![err_musicnotfound](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_error_musicnotfound.png)]
+[err_musicnotfound](https://github.com/tommeverket/VK_RPC/blob/main/screenshots/GUI_error_musicnotfound.png)
 - ✅ Включите "Транслировать в статус" в настройках VK Музыки
 - ✅ Убедитесь, что музыка реально играет
 

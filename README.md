@@ -62,7 +62,7 @@ cd VK_RPC
 ```
 
 ### Получение токена VK:
-1. Перейдите по [ссылке](https://oauth.vk.com/oauth/authorize?client_id=6121396&scope=1115144&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1&slogin_h=1c303149381fdfa4ab.b807112eee8a0f0a20&__q_hash=172f249acc3b5044585b64397c2acbb6)
+1. Перейдите по [ссылке](https://id.vk.com/auth?return_auth_hash=4c293c3ff083fe52d9&redirect_uri=https%3A%2F%2Foauth.vk.com%2Fblank.html&redirect_uri_hash=354a3f3070d8a7e882&force_hash=1&app_id=6121366&response_type=token&code_challenge=&code_challenge_method=&scope=1115144&state=)
 (Или создайте свою ссылку через https://vkhost.github.io)
 2. Разрешите доступ
 3. Скопируйте токен из адресной строки (после access_token= и до &expires_in=)
